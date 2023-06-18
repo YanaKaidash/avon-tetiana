@@ -5,9 +5,10 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <style>
-      @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
-   </style>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Pattaya&display=swap"
+      rel="stylesheet">
    <link rel="stylesheet" href="./css/style.css">
    <title>AVON Tetiana</title>
 </head>
@@ -15,41 +16,40 @@
 <body>
 
    <header>
-
-      <a class="logo" href="./index.html">
+      <a class="logo" href="/index.html">
          <div class="logo-img"></div>
       </a>
 
-      <a href="#">
+      <a href="/products.html">
          <button class="header-button" type="button">ЗНИЖКИ ТА АКЦІЇ</button>
       </a>
       <ul class="nav">
          <li class="nav-contact">
-            <a href="#">
-               <img src="./img/icons/icon-instagram.svg" alt="instagram">
+            <a href="https://www.facebook.com/profile.php?id=100017293868010" target="_blank">
+               <img src="./img/icons/icon-instagram.svg" alt="faceboock">
             </a>
          </li>
          <li class="nav-contact">
-            <a href="#">
-               <img src="./img/icons/icon-faceboock.svg" alt="faceboock">
+            <a href="https://www.instagram.com/tatianakovalenko7255/" target="_blank">
+               <img src="./img/icons/icon-faceboock.svg" alt="instagram">
             </a>
          </li>
       </ul>
 
       <ul class="nav">
          <li class="nav-contact">
-            <a href="#">
+            <a href="viber://chat?number=%2B380975702882" target="_blank">
                <img src="./img/icons/icon-viber.svg" alt="viber">
             </a>
          </li>
          <li class="nav-contact">
-            <a href="#">
+            <a href="https://wa.me/%2B380975702882" target="_blank">
                <img src="./img/icons/icon-whatsapp.svg" alt="whatsapp">
             </a>
          </li>
          <li class="nav-contact">
-            </a>
-            <img src="./img/icons/icon-telegram.svg" alt="telegram">
+            <a href="https://t.me/" target="_blank">
+               <img src="./img/icons/icon-telegram.svg" alt="telegram">
             </a>
          </li>
       </ul>
@@ -68,37 +68,48 @@
    <div class="wrapper">
       <main>
          <div class="main-content">
-            <section class="section">
+            <section class="section item-1">
                <h1 hidden class="title-section"></h1>
-               <img src="./img/logo-avon-main.jpg" alt="Minilogo Avon">
+               <img class="mini-logo-section" src="./img/logo-avon-main.jpg" alt="Minilogo Avon">
                <div class="body-section">
                   <p class="text-section">Любі красунечкі,
+                     <br>
                      Ви можете звертатися до мене з будь-яких питань.
+                     <br>
                      Залюбки проконсультую Вас щодо асортименту,
-                     якості та наявності засобів Avon.</p>
+                     <br>
+                     якості та наявності засобів Avon.
+                  </p>
                   <button class="btn-section">
-                     <a href="#" class="link-section">КАТАЛОГ</a>
+                     <a href="#" class="link-section" target="_blank">КАТАЛОГ</a>
                   </button>
                </div>
             </section>
 
-            <section class="section">
+            <section class="section item-2">
                <h2 hidden class="title-section"></h2>
-               <img src="./img/logo-avon-main.jpg" alt="Minilogo Avon">
+               <img class="mini-logo-section" src="./img/logo-avon-main.jpg" alt="Minilogo Avon">
                <div class="body-section">
                   <p class="text-section">Будьте красивими, успішними і вільними з Avon!
+                     <br>
                      Станьте бізнес-леді та отримуйте ту вигоду,
+                     <br>
                      яку хочете Ви.
-                     Хочете приєднатися до Avon?</p>
+                     <br>
+                     Хочете приєднатися до Avon?
+                  </p>
                   <button class="btn-section">
-                     <a href="#" class="link-section">СТАТИ ПРЕДСТАВНИКОМ</a>
+                     <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fservice.avon.ua%2Fref%2F9a5748a2fb%3Ffbclid%3DIwAR0EoWe6Ekqsul_FVTPOEEig63jtbrq6vw74tF2U6glPAvbhJUdp_zpQnDk&h=AT3qfAweePS5Y1tdg9VT36-G1tRktdumfzsfSHbCF9xY1vM3kIcdI03iCkbocfMQe4I630w8vyXGM_sC9LEKgEkZVgFIS7OqhXfqHfc-sat2_q33u2sd6kQR2iUTTY7FyfjC0imcUEJi2dnevGE_&__tn__=-UK-R&c[0]=AT0u_k3WOZ3aE0nKhTt3xaWhu_azGa4N5lRV1MXxQ6n9OGseC2SGJ1c8cc7FXZAcEoI9wlqAhS_BJNb0f7a9_B2QVDFS6to1Hyf09KXeQFjGwJ5vR4ucTzVXpQWUClIVZyqYb2Ymaq52llv5xP4XiYAbOyo3Dnu3OugS_IwDQlKNARKaRt19"
+                        class="link-section" target="_blank">СТАТИ ПРЕДСТАВНИКОМ</a>
                   </button>
                </div>
             </section>
 
-            <a href="#" class="link-outsection">І ще трішки смаколиків
-               <br>
-               для Вас ; )</a>
+            <section class="outsection">
+               <a href="/products.html" class="link-outsection">І ще трішки смаколиків
+                  <br>
+                  для Вас ; )</a>
+            </section>
          </div>
       </main>
 
